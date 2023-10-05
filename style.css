@@ -1,0 +1,37 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(fuentes/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato";
+    src: url(fuentes/Lato/Lato-Regular.ttf);
+}
+body{
+    background-color: #F2F5F9;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:100px 405px 0px 405px ;
+    background-color: #fff;
+}
+.tar_img{
+    width: 40%;
+    z-index: 1;
+    position: absolute;
+}
+.tar_img2{
+    width: 40%;
+    z-index: 2;
+    top:375px;
+    position: absolute;
+}
+.tar_titulo{
+    margin-top: 360px;
+}
