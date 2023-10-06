@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: "Poppins";
-    src: url(fuentes/Poppins/Poppins-Bold.ttf);
+    src: url(fuentes/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: "Lato";
@@ -14,24 +14,11 @@
 body{
     background-color: #F2F5F9;
 }
-.tarjeta{
+.container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin:100px 405px 0px 405px ;
-    background-color: #fff;
 }
-.tar_img{
-    width: 40%;
-    z-index: 1;
-    position: absolute;
-}
-.tar_img2{
-    width: 40%;
-    z-index: 2;
-    top:375px;
-    position: absolute;
-}
-.tar_titulo{
-    margin-top: 360px;
+
+.linea{
+    border-bottom: 1px solid black;
 }
